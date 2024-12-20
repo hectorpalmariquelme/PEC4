@@ -1,0 +1,74 @@
+#NEXUS
+
+[!This data set was downloaded from TreeBASE, a relational database of phylogenetic knowledge. TreeBASE has been supported by the NSF, Harvard University, Yale University, SDSC and UC Davis. Please do not remove this acknowledgment from the Nexus file.
+
+
+Generated on December 20, 2024; 0:24 GMT
+
+TreeBASE (cc) 1994-2008
+
+Study reference:
+Allen J., Reed D., Perotti M., & Braig H. 2007. Evolutionary relationships of Candidatus
+Riesia spp., endosymbiotic Enterobacteriaceae living within hematophagous
+primate lice. Applied and Environmental Microbiology, 73(5): 1659-1664.
+
+TreeBASE Study URI:  http://purl.org/phylo/treebase/phylows/study/TB2:S1654]
+
+BEGIN TAXA;
+        TITLE  TaxonLabelSet12670;
+        DIMENSIONS NTAX=43;
+        TAXLABELS
+            Arsenophonus_insecticola
+            Arsenophonus_nasoniae
+            Baumannia_cicadellinicola
+            Blochmannia_pennsylvanicus
+            Blochmannia_rufipes
+            Buchnera_aphidicola
+            Cinara_cedri
+            Citrobacter_amalonaticus
+            Drosophila_paulistorum
+            Escherichia_coli
+            Morganella_morganii
+            Pantoea_sp
+            Pediculus_humanus_capitis_1
+            Pediculus_humanus_capitis_2
+            Pediculus_humanus_humanus_1
+            Pediculus_humanus_humanus_2
+            Pediculus_schaeffi
+            Phlomobacter_betae
+            Phlomobacter_fragariae
+            Photorhabdus_luminescens
+            Proteus_mirabilis
+            Providencia_rettgeri
+            Providencia_stuartii
+            Pthirus_pubis
+            Serratia_entomophila
+            Serratia_symbiotica
+            Sitophilus_oryzae
+            Sodalis_glossinidius
+            Uncultured_Bacterium_ex_Australiococcus_greville
+            Uncultured_Bacterium_ex_Haementeria_ghilianii
+            Uncultured_Bacterium_ex_Lipoptena_cervi
+            Uncultured_Bacterium_ex_Myrmeleon_mobilis
+            Uncultured_Bacterium_ex_Parabdella_sp
+            Uncultured_Bacterium_ex_Placobdelloides_siamensis
+            Uncultured_Bacterium_ex_Pseudolynchia_canariensis
+            Uncultured_Bacterium_ex_S_Erium_globosum
+            Uncultured_Bacterium_ex_S_Paracoccus_nothofagicola
+            Uncultured_Bacterium_ex_S_Planococcus_citri
+            Uncultured_Bacterium_ex_Siphoninus_phillyreae
+            Uncultured_Bacterium_ex_Tetraleurodes_acaciae
+            Uncultured_Bacterium_ex_Trichobius_longipes
+            Wigglesworthia_glossinidia
+            Wolbachia_pipientis
+            ;
+END;
+
+BEGIN TREES;
+      TITLE Tb8031;
+      LINK TAXA = TaxonLabelSet12670;
+      TREE Fig._1 = [&R] (Arsenophonus_insecticola,Pediculus_humanus_humanus_1,Arsenophonus_nasoniae,((((Pediculus_humanus_humanus_2,Pediculus_humanus_capitis_1),((((((Pthirus_pubis,Uncultured_Bacterium_ex_Australiococcus_greville),(Pediculus_humanus_capitis_2,Pediculus_schaeffi)),Uncultured_Bacterium_ex_Siphoninus_phillyreae),Uncultured_Bacterium_ex_Tetraleurodes_acaciae),(Uncultured_Bacterium_ex_Myrmeleon_mobilis,Uncultured_Bacterium_ex_Trichobius_longipes)),((Uncultured_Bacterium_ex_Haementeria_ghilianii,((((Phlomobacter_fragariae,Phlomobacter_betae,Drosophila_paulistorum),Uncultured_Bacterium_ex_Lipoptena_cervi),Providencia_rettgeri),(((Escherichia_coli,Providencia_stuartii),(Photorhabdus_luminescens,Pantoea_sp)),((Buchnera_aphidicola,Cinara_cedri),Serratia_symbiotica),((((((Sodalis_glossinidius,Blochmannia_rufipes),(Wigglesworthia_glossinidia,Blochmannia_pennsylvanicus)),Baumannia_cicadellinicola),Proteus_mirabilis),(Citrobacter_amalonaticus,Morganella_morganii)),(Serratia_entomophila,Sitophilus_oryzae)),((Uncultured_Bacterium_ex_Placobdelloides_siamensis,Uncultured_Bacterium_ex_Parabdella_sp),Uncultured_Bacterium_ex_Pseudolynchia_canariensis)))),Uncultured_Bacterium_ex_S_Erium_globosum)),Uncultured_Bacterium_ex_S_Planococcus_citri),Uncultured_Bacterium_ex_S_Paracoccus_nothofagicola),Wolbachia_pipientis));
+[!  TreeBASE tree URI: http://purl.org/phylo/treebase/phylows/tree/TB2:Tr2643]
+
+
+END;
